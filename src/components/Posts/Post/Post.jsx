@@ -6,7 +6,7 @@ import * as SC from './Post.styled';
 const FALLBACK_THUMB =
   'https://ixbt.online/live/images/original/16/95/46/2022/09/06/314f024dc6.jpg';
 
-export const Post = ({ title, likes, thumbSrc = FALLBACK_THUMB }) => {
+export const Post = ({ title, likes = 0, thumbSrc = FALLBACK_THUMB }) => {
   return (
     <SC.Card>
       <SC.Thumb src={thumbSrc} alt="" />

@@ -6,6 +6,8 @@ export const Card = styled.section`
   border-radius: 4px;
   height: 300px;
   overflow: hidden;
+  color: black;
+  font-weight: 700;
 `;
 
 export const Container = styled.div`
